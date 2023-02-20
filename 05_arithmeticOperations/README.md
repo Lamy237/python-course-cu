@@ -32,7 +32,7 @@ number = 1 + 2 * 3 / 4.0
 # Exercise
 
 Based on the following reservoir inputs parameters:
-- Calculate the oil in place (OIP)
+- Calculate the oil originally in place (OIP)
 - Calculate the stock tank oil originally in place (STOOIP)
 
 |Parameter                        | Value (units)                                 |
