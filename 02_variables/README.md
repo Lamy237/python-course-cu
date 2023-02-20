@@ -4,18 +4,56 @@
 
 We use variables to temporarily store data in a computer’s memory.
 
+## Table of contents
+
+- [Types of variables](#types-of-variables)
+  - [Numbers](#numbers)
+  - [Strings](#strings)
+- [Rules to create variables in Python](#rules-to-create-variables-in-python)
+- [Example](#example)
+- [Exercise](#exercise)
+
+# Types of variables
+
+In python, you do not need to declare variables before using them, or declare their data type. This is because python is completely object oriented, i.e every variable in python is an object.
+
+## Numbers
+
+Python supports two types of numbers - integers(whole numbers) and floating point numbers(decimals). 
+
+To define numbers in python, we use the following syntaxes:
+
+### Integers
 ```python
-area = 1750
-water_saturation = 0.3  # 30%
-branch = 'Petroleum Engineering'
+number = 5
 ```
 
-When the python interpreter executes this code, it will:
-- Allocate some memory, 
-- Store the number **1750** in that memory 
-- Attach the `area` label to that memory location
+### Floating point numbers
+```python
+number = 4.5
+```
 
-The scenario is the same for the other variables.
+## Strings
+[**Strings**](https://www.w3schools.com/python/python_strings.asp) in python are surrounded by either single quotation marks, or double quotation marks.
+
+`'hello'` is the same as `"hello"`.
+
+The difference between the two is that using double quotes makes it easy to include apostrophes.
+
+### Multiline Strings
+You can assign a multiline string to a variable by using three quotes (_single or double_):
+```python
+message = '''
+Hi stranger!
+Hope you are doing well.
+
+This is a repository in which I write all my notes as I am learning how to code in Python.
+Hope it helps you remember concepts you might have forgotten.
+
+Stay safe 😊
+'''
+```
+
 
 # Rules to create variables in Python
 
@@ -29,10 +67,20 @@ The scenario is the same for the other variables.
 - Use snake_case for variable names that contain spaces
 - Don’t use names that look like the digits 1 and 0 (such as lowercase L)
 
-### Note
-In python, you do not need to declare variables before using them, or declare their data type. This is because python is completely object oriented, i.e every variable in python is an object.
+# Example
 
-We use the [**`type()`**](https://www.w3schools.com/python/ref_func_type.asp) function to determine the type of a variable.
+```python
+area = 1750
+water_saturation = 0.3  # 30%
+branch = 'Petroleum Engineering'
+```
+
+When the python interpreter executes this code, it will:
+- Allocate some memory, 
+- Store the number **1750** in that memory 
+- Attach the `area` label to that memory location
+
+The scenario is the same for the other variables.
 
 # Exercise
 
