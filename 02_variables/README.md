@@ -22,7 +22,7 @@ The scenario is the same for the other variables.
 - A variable can consist of upper and lowercase letters, digits (_0-9_) and the underscore character.
 - The first character of a variable cannot be a digit.
 - Keywords like **if** or the Boolean **True** are reserved and cannot be used as variable names.
-- Variables are case-sensitive; therefore `porosity` is different from `POROSITY`, `Porosity`, `PoRoSiTy`. 
+- Variables are case-sensitive; therefore `porosity` is different from `POROSITY`, `Porosity`, `PoRoSiTy`.
 
 ### Recommended Pratices
 
@@ -31,6 +31,8 @@ The scenario is the same for the other variables.
 
 ### Note
 In python, you do not need to declare variables before using them, or declare their data type. This is because python is completely object oriented, i.e every variable in python is an object.
+
+We use the [**`type()`**](https://www.w3schools.com/python/ref_func_type.asp) function to determine the type of a variable.
 
 # Exercise
 
