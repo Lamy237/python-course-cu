@@ -25,7 +25,6 @@ porosity = int(porosity)
 
 # Method 2
 porosity = int(input('Enter the reservoir porosity: '))
-porosity = porosity
 ```
 
 # 📚 References
