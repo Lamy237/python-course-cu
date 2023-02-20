@@ -17,13 +17,15 @@ When we want to take data other than string data from the user, some type conver
 
 ### Example
 ```python
-# calculate the age of the user in 2023
+# Get the reservoir porosity from the user
+
 # Method 1
-birthYear = input('Birth Year: ')
-age = 2023 - int(birthYear)
+porosity = input('Enter the reservoir porosity: ')
+porosity = int(porosity)
+
 # Method 2
-birthYear = int(input('Birth Year: '))
-age = 2023 - birthYear
+porosity = int(input('Enter the reservoir porosity: '))
+porosity = porosity
 ```
 
 # 📚 References
